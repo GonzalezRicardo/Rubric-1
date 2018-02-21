@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Event Handlers</title>
+
+
+<script language="javascript" src="cookies.js"></script>
+<script language="javascript"> checkCookie();
+</script>
+<script>
+	function myFunction() {
+		alert("This page has loaded");
+	}
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Cookie test</title>
+</head>
+
+<body onload="myFunction()">
+<p onclick="this.innerHTML='Congratulations. GOOD JOB!'"><span onmouseover="this.style.color='red'">To view my 'on click' command feel free to click on this parapragh to see the results! </span>
+</p>
+<p id="myWindow"></p>
+
+<button onclick= "removeCookie()"> clear cookie</button>
+
+<script>
+var w = window.innerWidth
+		|| document.documentElement.clientWidth
+		|| document.body.clientWidth;
+		
+		var h = window.innerHeight
+		|| document.documentElement.clientHeight
+		|| document.body.clientHeight;
+		
+		var x = document.getElementById("myWindow");
+		x.innerHTML = "Browser inner window width: " + w + ", height: " + h + ".";
+</script>
+
+
+</body>
+</html>
