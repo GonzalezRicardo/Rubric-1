@@ -18,14 +18,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Cookie test</title>
 </head>
-
+<h2> On-Click On-Load</h2>
 <body onload="myFunction()">
 <p onclick="this.innerHTML='Congratulations. GOOD JOB!'"><span onmouseover="this.style.color='red'">To view my 'on click' command feel free to click on this parapragh to see the results! </span>
 </p>
+<hr>
+<h2> My Window Properties </h2>
 <p id="myWindow"></p>
-
+<hr>
+<h2> Cookies </h2>
 <button onclick= "removeCookie()"> clear cookie</button>
-
+<hr>
 <script>
 var w = window.innerWidth
 		|| document.documentElement.clientWidth

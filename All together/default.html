@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+
+<script src="instructors.js"> 
+</script>
+<script language="javascript" src="cookies.js"></script>
+<script language="javascript"> checkCookie();
+</script>
+<script>
+	function myFunction() {
+		alert("This page has loaded");
+	}
+</script>
+
+
+
+
+
+
+<title>Rubric 2</title>
+</head>
+
+<body onload="myFunction()">
+
+<h2>JavaScript Alert Window Ex.</h2>
+
+<button onclick="myOwn()">Click here Ms. Escobar</button>
+<hr> 
+
+<h2>JavaScript Prompt</h2>
+<button onclick="myOwnPromt()">Click here for promt Ms. Escobar</button>
+<p id="myPrompt"></p>
+<hr>
+
+
+<h2>JavaScript Function</h2>
+<p> Think of a number. ANY NUMBER. Double it. Add ten. Half it. Take away the number you started with. Your number is .... <b>(click button to find out if I guessed it right)<b><p>
+<button onclick="myOwnFunction()">Click here for my answer</button>
+<hr>
+
+<h2>JavaScript Return Function</h2>
+<p> Solve this problem 10 x 12 - 35 + 8 <p>
+<button onclick="myOwnnFunction()">Click here for answer</button>
+<hr>
+
+<h2>JavaScript Switch Statement</h2>
+<button onclick="myOwnSwitch()">Click here for a Switch Statement Ms. Escobar</button>
+<hr>
+<h2>"While" Loop</h2>
+
+<button onclick="myWhileLoop()">Click here for a "while" loop</button>
+<p id="demo"></p>
+<hr> 
+<h2>"For" Loop</h2>
+<button onclick="myForLoop()">Click here for a "for" loop </button>
+<p id="demo1"></p>
+<hr>
+<a href="rubric4.html"> <button> <h2> Rubric 4</h2> </button></a>
+<hr>
+
+<h2> On-Click On-Load</h2>
+<p onclick="this.innerHTML='Congratulations. GOOD JOB!'"><span onmouseover="this.style.color='red'">To view my 'on click' command feel free to click on this parapragh to see the results! </span>
+</p>
+<hr>
+<h2> My Window properties</h2>
+<p id="myWindow"></p>
+<hr>
+<h2> Cookies </h2>
+<button onclick= "removeCookie()"> clear cookie</button>
+
+<script>
+var w = window.innerWidth
+		|| document.documentElement.clientWidth
+		|| document.body.clientWidth;
+		
+		var h = window.innerHeight
+		|| document.documentElement.clientHeight
+		|| document.body.clientHeight;
+		
+		var x = document.getElementById("myWindow");
+		x.innerHTML = "Browser inner window width: " + w + ", height: " + h + ".";
+</script>
+
+
+</body>
+</html>
