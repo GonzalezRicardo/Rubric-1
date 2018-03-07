@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="style1.css">
 
 
 <script src="instructors.js"> 
@@ -20,8 +21,24 @@
 
 
 
+
 <title>Rubric 2</title>
 </head>
+<!--<div class="container">-->
+
+<aside>
+  <ul id="demoparent" class="nav" >
+    <li><a href="default.html">Home</a></li>
+    <li><a href="default.html">Back </a></li>
+    <li id="demochild"><a href="default.html">Back</a></li>
+    </ul>
+ 
+</aside>
+
+
+
+
+<section>
 
 <body onload="myFunction()">
 
@@ -52,25 +69,26 @@
 <h2>"While" Loop</h2>
 
 <button onclick="myWhileLoop()">Click here for a "while" loop</button>
-<p id="demo"></p>
+<p id="demo"><p>
 <hr> 
 <h2>"For" Loop</h2>
 <button onclick="myForLoop()">Click here for a "for" loop </button>
-<p id="demo1"></p>
+<p id="demo1"><p>
 <hr>
 <a href="rubric4.html"> <button> <h2> Rubric 4</h2> </button></a>
 <hr>
 
 <h2> On-Click On-Load</h2>
 <p onclick="this.innerHTML='Congratulations. GOOD JOB!'"><span onmouseover="this.style.color='red'">To view my 'on click' command feel free to click on this parapragh to see the results! </span>
-</p>
+<p>
 <hr>
 <h2> My Window properties</h2>
-<p id="myWindow"></p>
+<p id="myWindow"><p>
 <hr>
 <h2> Cookies </h2>
 <button onclick= "removeCookie()"> clear cookie</button>
-
+<p>
+</body>
 <script>
 var w = window.innerWidth
 		|| document.documentElement.clientWidth
@@ -84,6 +102,8 @@ var w = window.innerWidth
 		x.innerHTML = "Browser inner window width: " + w + ", height: " + h + ".";
 </script>
 
-
-</body>
+<div>
+</div>
+</section> 
+</div>
 </html>

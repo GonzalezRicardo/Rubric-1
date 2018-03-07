@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+aside {
+		width:160px;
+		float: left;
+		list-style-image: url(         );
+		padding: 10px;
+		margin: 7px; 
+		height: 250px;
+		background-color:#979967;
+		border-radius: 10px;
+		

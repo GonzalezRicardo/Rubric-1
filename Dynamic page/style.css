@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 body {
 		background: url(    );
     	background-size: cover;
@@ -12,8 +11,8 @@ body {
 		margin: 0 auto;
 		width:960px;
 		border: solid;
-		border-radius: 10px;
-		background-color:rgba(211,182,137,0.85);
+		border-radius: 5px;
+		background-color: rgba(211,211,211,1.00);
    		padding: 2px;
 }
 header  {
@@ -22,7 +21,7 @@ header  {
 	   	border-radius: 0px;
 	  	color:#FFFFFF;
 	   	text-shadow: 5px 5px 6px #000000;
-	   	border-bottom: thick solid #000000;
+	   	border-bottom: thick solid white;
 }
 aside {
 		width:160px;
@@ -31,7 +30,7 @@ aside {
 		padding: 10px;
 		margin: 7px; 
 		height: 250px;
-		background-color:#979967;
+		background-color: rgba(244,244,244,1.00);
 		border-radius: 10px;
 		
 
@@ -44,7 +43,7 @@ section {
     	padding: 20px;
 		margin: 5px;
 		margin-right:auto;
-		background-color:rgba(134,148,98,0.85);
+		background-color:rgba(244,244,244,1.00);
 		border-radius: 10px;
 	
 
@@ -57,15 +56,15 @@ footer {
 		border-top: medium solid #000000;
 }
 	
-table, th, td {
+/*table, th, td {
     	border: 1px solid black;
    		border-collapse: collapse;
 }
 th, td {
     	padding: 20px;
-}
+}*/
 
-.box { 
+/*.box { 
 		width: 200px;
 		height: 100px;
 		background-color: #c5a775;
@@ -73,11 +72,11 @@ th, td {
 		padding: 5px;
 		border-radius: 10px;
 	
-}
+}*/
 .box1 { 
-		width: 200px;
+		width: auto;
 		height: auto;
-		background-color: #c5a775;
+		background-color: rgba(93,137,255,1.00);
 		padding: 5px;
 		border-radius: 20px;
 		margin: 1px;
@@ -112,7 +111,7 @@ h4 {
 	
 	
 }
-ul#menu li {
+/*ul#menu li {
     	display: inline;
 		background-color: #c5a775;
     	color: white;
@@ -130,9 +129,9 @@ ul#menu li a {
 ul#menu li a:hover {
     	background-color:rgba(134,148,98,0.85);
 		color: white;
-}
+} */
 a:link, a:visited {
-   background-color:rgba(211,182,137,0.5);
+   background-color: rgba(111,147,255,1.00);
     color: white;
     padding: 3px 15px;
     text-align: center;	
@@ -141,7 +140,11 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    background-color: #760001;
+    background-color: #4C6EF9;
 	background-image:url(     );
 	background-repeat:no-repeat;
+}
+
+.hide {
+	display: none;
 }
