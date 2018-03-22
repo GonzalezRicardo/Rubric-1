@@ -8,6 +8,53 @@
 <title>Things to know about Ricardo Gonzalez</title>
 
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	
+	$("document").ready(function() {
+		$(".box1 , p:first").css("border" , "3px solid red");
+		
+		var newP = $("<p>");
+		newP.append ("<em> Content created by <b>Ricardo Gonzalez</b> (click me to go away)</em>");
+		$ ("#inserts").html (newP);
+		
+		$("#inserts").prepend("<em><h2>My Web Page.</h2>(click me to go away)</em>");
+        
+    });
+	
+	$("document").ready(function(){
+    $("em").click(function(){
+        $(this).hide();
+   		 });
+		});
+
+	$(document).ready(function(){
+    $("button").click(function(){
+        $(".animate").animate({right: '250px'});
+		 $(".animate").animate({left: '250px'});
+    });
+});
+
+	$(document).ready(function(){
+    $("button").click(function(){
+        $(".animate1").animate({right: '250px'});
+		 $(".animate1").animate({left: '250px'});
+    });
+});
+
+/*$(document).ready(function(){
+    $("button").click(function(){
+        $(".animate").animate({left: '250px'});
+    });
+});
+*/
+
+</script>
+
+
+
+
+
 
 
 <link href="style.css" rel="stylesheet" type="text/css">
@@ -24,9 +71,19 @@
 
 <div class="container">
 
+<div class="animate1" style="background:#9ACDEA;height:10px;width:100px;position:absolute;"></div>
+<br>
+  <div class="animate" style="background:#6F93FC;height:10px;width:100px;position:absolute;"></div>
+<br>
+<div class="animate1" style="background:#9ACDEA;height:10px;width:100px;position:absolute;"></div>
+
+
+
 
 <header>
- 
+
+
+   
     <blockquote>
       <blockquote>
         <blockquote>
@@ -71,10 +128,9 @@
  
    
 
- 
-  <div class="box1" id= "function1A" > 
-   
-   <div class = "hide" id="simon-pic" >
+ <button> Start Animation</button>
+<div id="inserts">  Hello World </div>
+  <div class="box1" id= "function1A">  <div class = "hide" id="simon-pic" >
    
    <h4>Educational Background </h4>
 
@@ -164,7 +220,7 @@
 <h2> My Window properties</h2>-->
 <p id="myWindow"></p>
 <hr>
-<h2> Cookies </h2>
+<h2> Cookies </h2>	
 <button onclick= "removeCookie()"> clear cookie</button>
 </body>
   

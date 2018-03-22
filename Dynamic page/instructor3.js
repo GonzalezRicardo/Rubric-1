@@ -114,6 +114,9 @@ function myForLoop() {
 	document.getElementById("demo1").innerHTML = text;
 }
 
+
+
+
 var simon = document.getElementById("simon");
 var bruce = document.getElementById("bruce");
 var ben = document.getElementById("ben");
